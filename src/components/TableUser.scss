@@ -1,0 +1,24 @@
+.sort-header{
+    display: flex;
+    justify-content: space-between;
+    i {
+        cursor: pointer;
+        padding: 0 2px;
+    }
+}
+
+
+.app-container {
+    .add-new{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .group-btn{
+            display: flex;
+            gap: 10px;
+            i {
+                padding: 0 2px;
+            }
+        }
+    }
+  }
